@@ -1,5 +1,7 @@
 // 홀수만 더하기
-// StringBuilder : 출력을 모아서 한 번에 출
+// Scanner : 입력 읽어오는 함수
+// StringBuilder : 출력을 모아서 한 번에 출력하는 함수
+// FileNotFoundException : 파일이 없을 때 예외처리
 
 package d1.홀수만더하기;
 
