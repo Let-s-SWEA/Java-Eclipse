@@ -1,6 +1,6 @@
 //
 
-package javaBasicCodingTraining.Day_2._02_문자열_붙여서_출력하기;
+package javaBasicCodingTraining.Day_2._04_홀짝_구분하기;
 
 import java.util.Scanner;
 
