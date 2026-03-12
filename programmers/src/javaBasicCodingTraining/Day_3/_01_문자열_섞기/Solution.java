@@ -5,7 +5,7 @@
 package javaBasicCodingTraining.Day_3._01_문자열_섞기;
 
 class Solution {
-	public String solution1(String str1, String str2) {
+	public String solution(String str1, String str2) {
 
 		StringBuilder sb = new StringBuilder();
 
@@ -21,7 +21,7 @@ class Solution {
 	public static void main(String[] args) {
 		Solution sol = new Solution();
 
-		String result1 = sol.solution1("aaaaa", "bbbbb");
+		String result1 = sol.solution("aaaaa", "bbbbb");
 
 		System.out.println(result1);
 	}
