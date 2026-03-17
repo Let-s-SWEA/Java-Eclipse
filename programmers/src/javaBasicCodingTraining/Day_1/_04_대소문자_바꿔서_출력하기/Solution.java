@@ -20,12 +20,16 @@ public class Solution {
 //			}
 //		}
 		
+//		for(char i : a.toCharArray()) {
+//			if(Character.isLowerCase(i)) {
+//				sb.append(Character.toUpperCase(i));
+//			} else {
+//				sb.append(Character.toLowerCase(i));
+//			}
+//		}
+		
 		for(char i : a.toCharArray()) {
-			if(Character.isLowerCase(i)) {
-				sb.append(Character.toUpperCase(i));
-			} else {
-				sb.append(Character.toLowerCase(i));
-			}
+			sb.append(Character.isLowerCase(i) ? Character.toUpperCase(i) : Character.toLowerCase(i));
 		}
 		
 		System.out.println(sb);
