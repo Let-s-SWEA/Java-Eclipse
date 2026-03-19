@@ -7,11 +7,11 @@ package javaBasicCodingTraining.Day_6_조건문_반복문._04_수열과_구간_�
 public class Solution {
 	public int[] solution(int[] arr, int[][] queries) {
 		for (int i = 0; i < queries.length; i++) {
-				int temp;
+			int temp;
 
-				temp = arr[queries[i][0]];
-				arr[queries[i][0]] = arr[queries[i][1]];
-				arr[queries[i][1]] = temp;
+			temp = arr[queries[i][0]];
+			arr[queries[i][0]] = arr[queries[i][1]];
+			arr[queries[i][1]] = temp;
 		}
 
 		return arr;
@@ -19,17 +19,12 @@ public class Solution {
 	
 	public int[] solution2(int[] arr, int[][] queries) {
 		for (int[] query : queries) {
-				int temp = arr[query[0]];
-				arr[query[0]] = arr[query[1]];
-				arr[query[1]] = temp;
-		}
-		
-		int[] answer = new int[arr.length];
-		for(int i = 0;i<arr.length;i++) {
-			answer[i] = arr[i];
+			int temp = arr[query[0]];
+			arr[query[0]] = arr[query[1]];
+			arr[query[1]] = temp;
 		}
 
-		return answer;
+		return arr;
 	}
 
 	public static void main(String[] args) {
