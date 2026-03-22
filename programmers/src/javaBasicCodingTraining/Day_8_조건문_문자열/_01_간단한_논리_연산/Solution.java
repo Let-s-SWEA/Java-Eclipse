@@ -10,8 +10,6 @@ package javaBasicCodingTraining.Day_8_조건문_문자열._01_간단한_논리_�
 
 public class Solution {
 	public boolean solution(boolean x1, boolean x2, boolean x3, boolean x4) {
-		
-		
 		return (x1 || x2) && (x3 || x4);
 	}
 
