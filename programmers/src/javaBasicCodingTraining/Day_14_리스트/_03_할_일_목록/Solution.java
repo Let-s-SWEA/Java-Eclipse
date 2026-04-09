@@ -8,7 +8,7 @@ class Solution {
 		return 1;
 	}
 
-	public void main(String[] args) {
+	public static void main(String[] args) {
 		Solution sol = new Solution();
 
 		int result = sol.solution(0);
